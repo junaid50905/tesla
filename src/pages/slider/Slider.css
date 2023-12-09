@@ -1,0 +1,33 @@
+.slide {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+}
+.slide .slide_upper_content {
+  position: absolute;
+  left: 50%;
+  top: 18%;
+  transform: translate(-50%);
+  color: white;
+}
+.slide .slide_upper_content .primary_link a {
+  color: white;
+}
+.slide .slide_lower_content {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%);
+}
+.slide .slide_lower_content .buttons .button .bottom-button {
+  width: calc(120px + 10vw);
+}
+.slide .slide_lower_content .content {
+  color: white;
+}
+.slide .slide_lower_content .content .content_link a {
+  color: white;
+}/*# sourceMappingURL=Slider.css.map */

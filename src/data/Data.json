@@ -1,0 +1,314 @@
+{
+    "top_banner": {
+        "primaryContent": "$7,500 Federal Tax Credit for Certain Tesla Models",
+        "secondaryContent": "Reductions likely for certain vehicles in 2024. Take delivery by 12/31 for full $7,500. Eligibility Details"
+    },
+    "navbar": {
+        "logo": "../../public/images/logo.png",
+        "navItems": [{
+                "navItemName": "vehicles",
+                "navMegaMenuItems": [{
+                        "megaMenuItemName": "model s",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-S.avif",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "order",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "model 3",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-3.avif",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "order",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "model x",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-X.avif",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "order",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "model y",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-Y.avif",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "learn",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "cybertruck",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Cybertruck-1x.avif",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "learn",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "help me choose",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-HMC-RedBlue.png",
+                        "links": [{
+                            "name": "get started",
+                            "link": "google.com"
+                        }]
+                    }
+                ],
+                "navMegaMenuLinks": [{
+                        "name": "inventory"
+                    },
+                    {
+                        "name": "userd cars"
+                    },
+                    {
+                        "name": "demo drive"
+                    },
+                    {
+                        "name": "trade-in"
+                    },
+                    {
+                        "name": "compare"
+                    },
+                    {
+                        "name": "fleet"
+                    },
+                    {
+                        "name": "semi"
+                    },
+                    {
+                        "name": "roadster"
+                    }
+                ]
+            },
+            {
+                "navItemName": "energy",
+                "navMegaMenuItems": [{
+                        "megaMenuItemName": "solar panels",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-S.avif",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "order",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "solar roof",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-3.avif",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "order",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "powerwall",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-X.avif",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "order",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "megapack",
+                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-Y.avif",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "learn",
+                                "link": "google.com"
+                            }
+                        ]
+                    }
+                ],
+                "navMegaMenuLinks": [{
+                        "name": "schedule a consultation"
+                    },
+                    {
+                        "name": "why solar"
+                    },
+                    {
+                        "name": "incentives"
+                    },
+                    {
+                        "name": "support"
+                    },
+                    {
+                        "name": "partner with tesla"
+                    },
+                    {
+                        "name": "commercial"
+                    },
+                    {
+                        "name": "Utilities"
+                    }
+                ]
+            }
+        ]
+
+    },
+    "sliders": [{
+            "title": "Model Y",
+            "subtitle": "Lease starting at $399/mo*",
+            "video": "../../public/images/home-page/video/Homepage-Model-Y-Desktop-NA.mp4",
+            "content": "<span>*Excludes taxes and fees with price subject to change. Available in select states. <a href='https://www.tesla.com/modely/design?financeModalTab=finance_options#overview'>See Details</a></span>",
+            "buttons": {
+                "button_one": {
+                    "title": "Explore Inventory",
+                    "link": "https://www.tesla.com/inventory/new/my?arrangeby=relevance&range=0"
+                },
+                "button_two": {
+                    "title": "Demo Drive",
+                    "link": "https://www.tesla.com/drive?selectedModel=modely"
+                }
+            }
+        },
+        {
+            "title": "Model 3",
+            "subtitle": "Lease starting at $399/mo*",
+            "poster": "../../public/images/home-page/img/Homepage-Model-3-Desktop-NA.avif",
+            "content": "<span>*Excludes taxes and fees with price subject to change. Available in select states. <a href='https://www.tesla.com/model3/design?financeModalTab=finance_options#overview'>See Details</a></span>",
+            "buttons": {
+                "button_one": {
+                    "title": "Explore Inventory",
+                    "link": "https://www.tesla.com/inventory/new/m3?arrangeby=relevance&range=0"
+                },
+                "button_two": {
+                    "title": "Demo Drive",
+                    "link": "https://www.tesla.com/drive?selectedModel=model3"
+                }
+            }
+        },
+        {
+            "title": "Model X",
+            "subtitle": "From $68,590*",
+            "secodary_subtitle": "After Federal Tax Credit & Est. Gas Savings",
+            "poster": "../../public/images/home-page/img/Homepage-Model-X-Desktop-LHD.avif",
+            "content": "<span>*Price before incentives and savings is $79,990, excluding taxes and fees. Subject to change. <br/> <a href='https://www.tesla.com/modelx/design?financeModalTab=gas_savings#overview'> Learn about est. gas savings.</a></span>",
+            "buttons": {
+                "button_one": {
+                    "title": "Explore Inventory",
+                    "link": "https://www.tesla.com/inventory/new/mx?arrangeby=relevance&range=0"
+                },
+                "button_two": {
+                    "title": "Demo Drive",
+                    "link": "https://www.tesla.com/drive?selectedModel=modelx"
+                }
+            }
+        },
+        {
+            "title": "Model S",
+            "subtitle": "From $71,090*",
+            "poster": "../../public/images/home-page/img/Homepage-Model-S-Desktop-LHD-6.22.avif",
+            "secodary_subtitle": "After Est. Gas Savings",
+            "content": "<span>*Price before savings is $74,990, excluding taxes and fees. Subject to change.<br/> <a href='https://www.tesla.com/modelx/design?financeModalTab=gas_savings#overview'>Learn about est. gas savings.</a></span>",
+            "buttons": {
+                "button_one": {
+                    "title": "Explore Inventory",
+                    "link": "https://www.tesla.com/inventory/new/ms?arrangeby=relevance&range=0"
+                },
+                "button_two": {
+                    "title": "Demo Drive",
+                    "link": "https://www.tesla.com/drive?selectedModel=models"
+                }
+            }
+        },
+        {
+            "poster": "../../public/images/home-page/img/Homepage-Cybertruck-Desktop.avif",
+            "buttons": {
+                "button_one": {
+                    "title": "Order Now",
+                    "link": "https://www.tesla.com/cybertruck/design#payment"
+                },
+                "button_two": {
+                    "title": "Learn More",
+                    "link": "https://www.tesla.com/cybertruck"
+                }
+            }
+        },
+        {
+            "title": "Experience Tesla",
+            "subtitle": "Schedule a Demo Drive Today",
+            "video": "../../public/images/home-page/video/Homepage-Demo-Drive-Desktop-NA.mp4",
+            "buttons": {
+                "button_one": {
+                    "title": "Demo Drive",
+                    "link": "https://www.tesla.com/drive"
+                }
+            }
+        },
+        {
+            "title": "Solar Panels",
+            "poster": "../../public/images/home-page/img/425_HP_SolarPanels_D.avif",
+            "primary_link": "<a href='https://www.tesla.com/solar-virtual-consultations'>Schedule a Virtual Consultation</a>",
+            "buttons": {
+                "button_one": {
+                    "title": "Order Now",
+                    "link": "https://www.tesla.com/energy/design"
+                },
+                "button_two": {
+                    "title": "Learn More",
+                    "link": "https://www.tesla.com/solarpanels"
+                }
+            }
+        },
+        {
+            "title": "Solar Roof",
+            "subtitle": "Produce Clean Energy From Your Roof",
+            "poster": "../../public/images/home-page/img/Homepage-Powerwall-Desktop.avif",
+            "content": "*Price before savings is $74,990, excluding taxes and fees. Subject to change. Learn about est. gas savings.",
+            "buttons": {
+                "button_one": {
+                    "title": "Order Now",
+                    "link": "https://www.tesla.com/energy/design"
+                },
+                "button_two": {
+                    "title": "Learn More",
+                    "link": "https://www.tesla.com/solarroof"
+                }
+            }
+        }
+    ]
+
+}

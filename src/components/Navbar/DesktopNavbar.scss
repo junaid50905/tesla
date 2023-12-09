@@ -1,0 +1,21 @@
+nav {
+    .logo {
+        height: 60px;
+        width: 110px;
+        img {
+            object-fit: contain;
+        }
+    }
+    .nav_items {
+        .nav-link {
+            font-weight: 600;
+            color: white !important;
+        }
+    }
+    .nav_supportLanguageAuth {
+        .icon {
+            font-size: 24px !important;
+            color: white;
+        }
+    }
+}

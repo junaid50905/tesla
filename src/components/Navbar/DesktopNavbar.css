@@ -1,0 +1,16 @@
+nav .logo {
+  height: 60px;
+  width: 110px;
+}
+nav .logo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+nav .nav_items .nav-link {
+  font-weight: 600;
+  color: white !important;
+}
+nav .nav_supportLanguageAuth .icon {
+  font-size: 24px !important;
+  color: white;
+}/*# sourceMappingURL=DesktopNavbar.css.map */
