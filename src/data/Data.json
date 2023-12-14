@@ -4,7 +4,7 @@
         "secondaryContent": "Reductions likely for certain vehicles in 2024. Take delivery by 12/31 for full $7,500. Eligibility Details"
     },
     "navbar": {
-        "logo": "../../public/images/logo.png",
+        "logo": "https://i.ibb.co/DC98Q4V/logo.png",
         "navItems": [{
                 "navItemName": "vehicles",
                 "navMegaMenuItems": [{
