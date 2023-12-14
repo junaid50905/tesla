@@ -2,6 +2,9 @@ nav {
   padding: 0 calc(5px + 3vw) !important;
   position: relative;
 }
+nav:hover .icon {
+  color: black !important;
+}
 nav .logo {
   height: 60px;
   width: 110px;
@@ -14,7 +17,7 @@ nav .nav-items:hover .nav-link {
   color: black !important;
 }
 nav .nav-items .nav-item {
-  margin: 0 10px !important;
+  margin: 0 2px !important;
   padding: 2px 0 !important;
   border-radius: 3px;
 }
