@@ -1,3 +1,7 @@
+nav {
+  padding: 0 calc(5px + 3vw) !important;
+  position: relative;
+}
 nav .logo {
   height: 60px;
   width: 110px;
@@ -6,11 +10,68 @@ nav .logo img {
   -o-object-fit: contain;
      object-fit: contain;
 }
-nav .nav_items .nav-link {
+nav .nav-items:hover .nav-link {
+  color: black !important;
+}
+nav .nav-items .nav-item {
+  margin: 0 10px !important;
+  padding: 2px 0 !important;
+  border-radius: 3px;
+}
+nav .nav-items .nav-item:hover {
+  background-color: rgba(48, 50, 51, 0.13);
+}
+nav .nav-items .nav-item:hover .mega-menu {
+  display: block !important;
+}
+nav .nav-items .nav-item .mega-menu {
+  background-color: white;
+  height: 500px;
+  width: 100vw !important;
+  z-index: -44;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 100px 50px 50px 50px !important;
+  display: none;
+}
+nav .nav-items .nav-item .mega-menu .mega-menu-links {
+  margin-left: 50px !important;
+}
+nav .nav-items .nav-item .nav-link {
   font-weight: 600;
-  color: white !important;
+  color: white;
+  padding: 0 20px !important;
 }
 nav .nav_supportLanguageAuth .icon {
   font-size: 24px !important;
   color: white;
+}
+
+.offcanvas {
+  width: 100vw !important;
+  position: relative;
+}
+
+.small-device-menu button.menu-button {
+  background: rgba(188, 188, 188, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 5px;
+  color: white;
+}
+.small-device-menu button.menu-button:hover {
+  background: rgba(188, 188, 188, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 5px;
+  color: white;
+}
+.small-device-menu button.close {
+  position: absolute;
+  right: 30px;
+  top: 20px;
 }/*# sourceMappingURL=DesktopNavbar.css.map */

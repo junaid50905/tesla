@@ -11,6 +11,7 @@ const App = () => {
           <TopBanner />
           <DesktopNavbar />
         </header>
+        
         <Slider/>
       </div>
     </>

@@ -1,4 +1,6 @@
 nav {
+    padding: 0 calc(5px + 3vw) !important;
+    position: relative;
     .logo {
         height: 60px;
         width: 110px;
@@ -6,10 +8,43 @@ nav {
             object-fit: contain;
         }
     }
-    .nav_items {
-        .nav-link {
-            font-weight: 600;
-            color: white !important;
+    .nav-items {
+        &:hover {
+            .nav-link {
+                color: black !important;
+            }
+        }
+        .nav-item {
+            margin: 0 10px !important;
+            padding: 2px 0 !important;
+            border-radius: 3px;
+            &:hover {
+                background-color: rgba(48, 50, 51, 0.13);
+                .mega-menu {
+                    display: block !important;
+                }
+            }
+            .mega-menu {
+                background-color: white;
+                height: 500px;
+                width: 100vw !important;
+                z-index: -44;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                padding: 100px 50px 50px 50px !important;
+                display: none;
+                .mega-menu-items {}
+                .mega-menu-links {
+                    margin-left: 50px !important;
+                }
+            }
+            .nav-link {
+                font-weight: 600;
+                color: white;
+                padding: 0 20px !important;
+            }
         }
     }
     .nav_supportLanguageAuth {
@@ -17,5 +52,34 @@ nav {
             font-size: 24px !important;
             color: white;
         }
+    }
+}
+
+.offcanvas {
+    width: 100vw !important;
+    position: relative;
+}
+
+.small-device-menu {
+    button.menu-button {
+        background: rgba( 188, 188, 188, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        backdrop-filter: blur( 1.5px);
+        -webkit-backdrop-filter: blur( 1.5px);
+        border-radius: 5px;
+        color: white;
+        &:hover {
+            background: rgba( 188, 188, 188, 0.25);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+            backdrop-filter: blur( 1.5px);
+            -webkit-backdrop-filter: blur( 1.5px);
+            border-radius: 5px;
+            color: white;
+        }
+    }
+    button.close {
+        position: absolute;
+        right: 30px;
+        top: 20px;
     }
 }

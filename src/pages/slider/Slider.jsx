@@ -5,9 +5,8 @@ import './Slider.css'
 
 const Slider = () => {
     const slides = Data.sliders
-    console.log(slides);
     return (
-        <>
+        <section id="sliders">
             {
                 slides.map((slide, index) => {
                     const { buttons, content, subtitle, title, primary_link, secodary_subtitle, poster, video } = slide
@@ -66,7 +65,7 @@ const Slider = () => {
                     )
                 })
             }
-        </>
+        </section>
     )
 }
 

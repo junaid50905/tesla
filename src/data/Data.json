@@ -184,6 +184,15 @@
                         "name": "Utilities"
                     }
                 ]
+            },
+            {
+                "navItemName": "Charging"
+            },
+            {
+                "navItemName": "Discover"
+            },
+            {
+                "navItemName": "Shop"
             }
         ]
 
