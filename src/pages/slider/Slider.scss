@@ -6,6 +6,9 @@
         overflow: hidden;
         background-color: rgba(0, 0, 0, 0.4);
         background-blend-mode: overlay;
+        video {
+            width: 100vw !important;
+        }
         .slide_upper_content {
             position: absolute;
             left: 50%;

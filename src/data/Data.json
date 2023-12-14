@@ -61,7 +61,7 @@
                     },
                     {
                         "megaMenuItemName": "cybertruck",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Cybertruck-1x.avif",
+                        "image": "https://drive.google.com/file/d/1YlGbc_ue5OugLkXjds7kVhTFuE4VuFDO/view?usp=drive_link",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -200,7 +200,7 @@
     "sliders": [{
             "title": "Model Y",
             "subtitle": "Lease starting at $399/mo*",
-            "video": "../../public/images/home-page/video/Homepage-Model-Y-Desktop-NA.mp4",
+            "video": "https://digitalassets.tesla.com/tesla-contents/video/upload/Homepage-Model-Y-Desktop-NA.mp4",
             "content": "<span>*Excludes taxes and fees with price subject to change. Available in select states. <a href='https://www.tesla.com/modely/design?financeModalTab=finance_options#overview'>See Details</a></span>",
             "buttons": {
                 "button_one": {
@@ -216,7 +216,7 @@
         {
             "title": "Model 3",
             "subtitle": "Lease starting at $399/mo*",
-            "poster": "../../public/images/home-page/img/Homepage-Model-3-Desktop-NA.avif",
+            "poster": "https://i.ibb.co/xS5bjD7/Homepage-Model-3-Desktop-NA.jpg",
             "content": "<span>*Excludes taxes and fees with price subject to change. Available in select states. <a href='https://www.tesla.com/model3/design?financeModalTab=finance_options#overview'>See Details</a></span>",
             "buttons": {
                 "button_one": {
@@ -233,7 +233,7 @@
             "title": "Model X",
             "subtitle": "From $68,590*",
             "secodary_subtitle": "After Federal Tax Credit & Est. Gas Savings",
-            "poster": "../../public/images/home-page/img/Homepage-Model-X-Desktop-LHD.avif",
+            "poster": "https://i.ibb.co/pjtwfWM/Homepage-Model-X-Desktop-LHD.jpg",
             "content": "<span>*Price before incentives and savings is $79,990, excluding taxes and fees. Subject to change. <br/> <a href='https://www.tesla.com/modelx/design?financeModalTab=gas_savings#overview'> Learn about est. gas savings.</a></span>",
             "buttons": {
                 "button_one": {
@@ -249,7 +249,7 @@
         {
             "title": "Model S",
             "subtitle": "From $71,090*",
-            "poster": "../../public/images/home-page/img/Homepage-Model-S-Desktop-LHD-6.22.avif",
+            "poster": "https://i.ibb.co/PZ0Ydt8/Homepage-Model-S-Desktop-LHD-6-22.jpg",
             "secodary_subtitle": "After Est. Gas Savings",
             "content": "<span>*Price before savings is $74,990, excluding taxes and fees. Subject to change.<br/> <a href='https://www.tesla.com/modelx/design?financeModalTab=gas_savings#overview'>Learn about est. gas savings.</a></span>",
             "buttons": {
@@ -264,7 +264,7 @@
             }
         },
         {
-            "poster": "../../public/images/home-page/img/Homepage-Cybertruck-Desktop.avif",
+            "poster": "https://i.ibb.co/sFhkc06/Homepage-Cybertruck-Desktop.jpg",
             "buttons": {
                 "button_one": {
                     "title": "Order Now",
@@ -279,7 +279,7 @@
         {
             "title": "Experience Tesla",
             "subtitle": "Schedule a Demo Drive Today",
-            "video": "../../public/images/home-page/video/Homepage-Demo-Drive-Desktop-NA.mp4",
+            "video": "https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Homepage-Demo-Drive-Desktop-NA.mp4",
             "buttons": {
                 "button_one": {
                     "title": "Demo Drive",
@@ -289,7 +289,7 @@
         },
         {
             "title": "Solar Panels",
-            "poster": "../../public/images/home-page/img/425_HP_SolarPanels_D.avif",
+            "poster": "https://i.ibb.co/cbV8sBK/425-HP-Solar-Panels-D.jpg",
             "primary_link": "<a href='https://www.tesla.com/solar-virtual-consultations'>Schedule a Virtual Consultation</a>",
             "buttons": {
                 "button_one": {
@@ -305,7 +305,22 @@
         {
             "title": "Solar Roof",
             "subtitle": "Produce Clean Energy From Your Roof",
-            "poster": "../../public/images/home-page/img/Homepage-Powerwall-Desktop.avif",
+            "poster": "https://i.ibb.co/C9VWKJV/Homepage-Solar-Roof-Desktop-Global.jpg",
+            "content": "*Price before savings is $74,990, excluding taxes and fees. Subject to change. Learn about est. gas savings.",
+            "buttons": {
+                "button_one": {
+                    "title": "Order Now",
+                    "link": "https://www.tesla.com/energy/design"
+                },
+                "button_two": {
+                    "title": "Learn More",
+                    "link": "https://www.tesla.com/solarroof"
+                }
+            }
+        },
+        {
+            "title": "Powerwall",
+            "poster": "https://i.ibb.co/bFxwDf8/Homepage-Powerwall-Desktop.jpg",
             "content": "*Price before savings is $74,990, excluding taxes and fees. Subject to change. Learn about est. gas savings.",
             "buttons": {
                 "button_one": {
