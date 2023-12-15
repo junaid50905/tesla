@@ -13,6 +13,11 @@
   transform: translate(-50%);
   color: white;
 }
+@media (max-width: 576px) {
+  #sliders .slide .slide_upper_content {
+    top: 30%;
+  }
+}
 #sliders .slide .slide_upper_content .primary_link a {
   color: white;
 }
