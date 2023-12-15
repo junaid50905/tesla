@@ -6,11 +6,10 @@
         overflow: hidden;
         background-color: rgba(0, 0, 0, 0.4);
         background-blend-mode: overlay;
-        video {}
         .slide_upper_content {
             position: absolute;
             left: 50%;
-            top: 18%;
+            top: 20%;
             transform: translate(-50%);
             color: white;
             .primary_link {
@@ -22,7 +21,7 @@
         .slide_lower_content {
             position: absolute;
             left: 50%;
-            bottom: 5%;
+            bottom: 10%;
             transform: translate(-50%);
             .buttons {
                 .button {
