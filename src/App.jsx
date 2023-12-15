@@ -10,8 +10,7 @@ const App = () => {
         <header>
           <TopBanner />
           <DesktopNavbar />
-        </header>
-        
+        </header>        
         <Slider/>
       </div>
     </>

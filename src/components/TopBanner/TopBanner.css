@@ -4,9 +4,10 @@
   padding: calc(5px + 0.5vw) calc(10px + 5vw) !important;
   background: radial-gradient(ellipse at 25% 0%, rgba(17, 64, 117, 0.96) 1%, rgb(20, 20, 20) 49%, rgb(0, 0, 0) 100%);
 }
-#topBannerSection h4 {
-  font-size: clamp(1em, 2vw, 1.2em) !important;
+#topBannerSection .banner-left-content h4 {
+  font-size: clamp(0.7em, 2vw, 1.1em) !important;
 }
-#topBannerSection p {
+#topBannerSection .banner-right-content p {
   font-weight: 400;
+  font-size: clamp(0.7em, 2vw, 1em) !important;
 }/*# sourceMappingURL=TopBanner.css.map */
