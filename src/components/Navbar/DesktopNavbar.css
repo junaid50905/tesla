@@ -17,7 +17,6 @@ nav .nav-items:hover .nav-link {
   color: black !important;
 }
 nav .nav-items .nav-item {
-  margin: 0 2px !important;
   padding: 2px 0 !important;
   border-radius: 3px;
 }
@@ -29,7 +28,7 @@ nav .nav-items .nav-item:hover .mega-menu {
 }
 nav .nav-items .nav-item .mega-menu {
   background-color: white;
-  height: 500px;
+  height: auto;
   width: 100vw !important;
   z-index: -44;
   position: absolute;
@@ -38,9 +37,13 @@ nav .nav-items .nav-item .mega-menu {
   top: 0;
   padding: 100px 50px 50px 50px !important;
   display: none;
+  padding-top: 15vh !important;
 }
 nav .nav-items .nav-item .mega-menu .mega-menu-links {
   margin-left: 50px !important;
+}
+nav .nav-items .nav-item .mega-menu .mega-menu-links .nav-mega-menu-link:hover {
+  text-decoration: underline !important;
 }
 nav .nav-items .nav-item .nav-link {
   font-weight: 600;

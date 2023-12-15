@@ -9,7 +9,7 @@
                 "navItemName": "vehicles",
                 "navMegaMenuItems": [{
                         "megaMenuItemName": "model s",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-S.avif",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -22,7 +22,7 @@
                     },
                     {
                         "megaMenuItemName": "model 3",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-3.avif",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3.png",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -35,7 +35,7 @@
                     },
                     {
                         "megaMenuItemName": "model x",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-X.avif",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-X.png",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -48,7 +48,7 @@
                     },
                     {
                         "megaMenuItemName": "model y",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-Y.avif",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-Y.png",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -61,7 +61,7 @@
                     },
                     {
                         "megaMenuItemName": "cybertruck",
-                        "image": "https://drive.google.com/file/d/1YlGbc_ue5OugLkXjds7kVhTFuE4VuFDO/view?usp=drive_link",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Cybertruck-1x.png",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -73,8 +73,8 @@
                         ]
                     },
                     {
-                        "megaMenuItemName": "help me choose",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-HMC-RedBlue.png",
+                        "megaMenuItemName": "Help Me Choose",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/v1697244584/Mega-Menu-Vehicles-HMC-RedBlue.png",
                         "links": [{
                             "name": "get started",
                             "link": "google.com"
@@ -111,7 +111,7 @@
                 "navItemName": "energy",
                 "navMegaMenuItems": [{
                         "megaMenuItemName": "solar panels",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-S.avif",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Energy-Solar-Panels.png",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -124,7 +124,7 @@
                     },
                     {
                         "megaMenuItemName": "solar roof",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-3.avif",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Energy-Solar-Roof.png",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -137,7 +137,7 @@
                     },
                     {
                         "megaMenuItemName": "powerwall",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-X.avif",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Energy-Powerwall-US.png",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -150,7 +150,7 @@
                     },
                     {
                         "megaMenuItemName": "megapack",
-                        "image": "../../public/images/mega-menu/Mega-Menu-Vehicles-Model-Y.avif",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Energy-Megapack.png",
                         "links": [{
                                 "name": "learn",
                                 "link": "google.com"
@@ -186,13 +186,151 @@
                 ]
             },
             {
-                "navItemName": "Charging"
+                "navItemName": "Charging",
+                "navMegaMenuItems": [{
+                        "megaMenuItemName": "Charging",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Charging-Charging.png",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "order",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "Home Charging",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Charging-Home-Charging.png",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "order",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "megaMenuItemName": "Supercharging",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Charging-Supercharging-NA.png",
+                        "links": [{
+                                "name": "learn",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "order",
+                                "link": "google.com"
+                            }
+                        ]
+                    }
+                ],
+                "navMegaMenuLinks": [{
+                        "name": "Charging Calculator"
+                    },
+                    {
+                        "name": "Trip Planner"
+                    },
+                    {
+                        "name": "Supercharger Voting"
+                    },
+                    {
+                        "name": "Host a Supercharger"
+                    },
+                    {
+                        "name": "Commercial Charging"
+                    },
+                    {
+                        "name": "Host Wall Connectors"
+                    }
+                ]
             },
             {
-                "navItemName": "Discover"
+                "navItemName": "Discover",
+                "allLinks": [{
+                        "heading": "Resources",
+                        "links": [{
+                                "name": "Demo Drive",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "Insurance",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "Video Guides",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "Customer Stories",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "Events",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Location Service",
+                        "links": [{
+                                "name": "Find Us",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "Trip Planner",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "Find a Collision Center",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "Find a Certified Installer",
+                                "link": "google.com"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Company",
+                        "links": [{
+                                "name": "About",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "Careers",
+                                "link": "google.com"
+                            },
+                            {
+                                "name": "Investor Relations",
+                                "link": "google.com"
+                            }
+                        ]
+                    }
+                ]
+
             },
             {
-                "navItemName": "Shop"
+                "navItemName": "Shop",
+                "categories": [{
+                        "name": "Charging",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Shop-Charging.png"
+                    },
+                    {
+                        "name": "Vehicle Accessories",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Shop-Vehicle-Accessories.png"
+                    },
+                    {
+                        "name": "Apparel",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Shop-Apparel.png"
+                    },
+                    {
+                        "name": "Lifestyle",
+                        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Shop-Lifestyle.png"
+                    }
+                ]
             }
         ]
 

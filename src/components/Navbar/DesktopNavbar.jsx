@@ -29,7 +29,12 @@ const DesktopNavbar = () => {
     return () => {
       window.removeEventListener('resize', updateScreenSize);
     };
+
   }, []);
+
+  const Navitems = NavbarContent.navbar.navItems;
+
+
 
 
   return (
@@ -44,78 +49,149 @@ const DesktopNavbar = () => {
             </div>
             {/* NavItems */}
             <ul className="navbar-nav nav-items">
-              <li className="nav-item">
-                <NavLink className="nav-link text-capitalize">One</NavLink>
-                <div className="mega-menu">
-                  <div className="row">
-                    <div className="col-md-8">
-                      <div className="mega-menu-items">
-                        <div className="row">
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
+              {
+                Navitems.map((navitem, index) => {
+                  const { navItemName, navMegaMenuItems, navMegaMenuLinks, allLinks, categories } = navitem
+                  console.log(navitem);
+                  return (
+                    <>
+                      <li className="nav-item" key={index}>
+                        <NavLink className="nav-link text-capitalize">{navItemName}</NavLink>
+                        {
+                          navMegaMenuItems && <>
+                            <div className="mega-menu">
+                              <div className="row">
+                                <div className="col-md-8">
+                                  <div className="mega-menu-items">
+                                    {
+                                      navMegaMenuItems && <>
+                                        <div className="row">
+                                          {
+                                            navMegaMenuItems.map((navMegaMenuItem, index) => {
+                                              const { megaMenuItemName, links, image } = navMegaMenuItem
+                                              return (
+                                                <>
+                                                  <div className="col-md-4" key={index}>
+                                                    <div className="mega-menu-item text-center m-2">
+                                                      <img src={image} alt="" className='img-fluid w-75 h-75' />
+                                                      <h6 className='text-capitalize'>{megaMenuItemName}</h6>
+                                                      <div className="links d-flex justify-content-center gap-2">
+                                                        {links.map((link, index) => {
+                                                          return (
+                                                            <>
+                                                              <Link to={link.link} key={index} className='text-dark text-capitalize'><small>{link.name}</small></Link>
+                                                            </>
+                                                          )
+                                                        })}
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </>                                                
+                                              )
+                                            })
+                                          }
+                                        </div>
+                                      </>
+                                    }
+                                  </div>
+                                </div>
+                                {
+                                  navMegaMenuLinks && <>
+                                    <div className="col-md-4 border-start">
+                                      <div className="mega-menu-links">
+                                        {
+                                          navMegaMenuLinks.map((navMegaMenuLink, index) => {
+                                            const { name } = navMegaMenuLink
+                                            return (
+                                              <>
+                                                <h5 className='my-3' key={index}><Link className='text-capitalize text-decoration-none text-dark nav-mega-menu-link'>{name}</Link></h5>
+                                              </>
+                                            )
+                                          })
+                                        }
+                                      </div>
+                                    </div>
+                                  </>
+                                }
+                              </div>
+                            </div>
+                          </>
+                        }
+                        {/* Discover */}
+                        {navItemName == 'Discover' && <>
+                          <div className="mega-menu">
+                            <div className="row justify-content-center">
+                              <div className="col-md-6">
+                                <div className="mega-menu-items">
+                                  <div className="row">
+                                    {
+                                      allLinks.map((item, index)=>{
+                                        const {heading, links} = item
+                                        return(
+                                          <>
+                                            <div className="col-md-4" key={index}>
+                                              <div>
+                                                <h6 className='mb-3 fw-normal text-secondary'>{heading}</h6>
+                                                <ul>
+                                                  {
+                                                    links.map((link, index)=>{
+                                                      return(
+                                                        <>
+                                                          <li className='fw-medium list-unstyled my-2' key={index}><Link className='text-dark text-decoration-none'>{link.name}</Link></li>
+                                                        </>
+                                                      )
+                                                    })
+                                                  }
+                                                </ul>
+                                              </div>
+                                            </div>
+                                          </>
+                                        )
+                                      })
+                                    }                                    
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
+                        </>}
+
+                        {/* Shop */}
+                        {navItemName == 'Shop' && <>
+                          <div className="mega-menu">
+                            <div className="row justify-content-center">
+                              <div className="col-md-9">
+                                <div className="mega-menu-items">
+                                  <div className="row">
+                                    {
+                                      categories.map((item, index) => {
+                                        const { name, image } = item
+                                        return (
+                                          <>
+                                            <div className="col-md-3" key={index}>
+                                              <div className='text-center'>
+                                                <img src={image} alt="" className='img-fluid w-75 h-75' />
+                                                <h6><Link className='text-decoration-none text-black'>{name}</Link></h6>
+                                              </div>
+                                            </div>
+                                          </>
+                                        )
+                                      })
+                                    }
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 border-start">
-                      <div className="mega-menu-links">
-                        <h5><Link>One</Link></h5>
-                        <h5><Link>Two</Link></h5>
-                        <h5><Link>Three</Link></h5>
-                        <h5><Link>Four</Link></h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="nav-item">
+                        </>}
+                      </li>
+                    </>
+                  )
+                })
+              }
+
+
+              {/* <li className="nav-item">
                 <NavLink className="nav-link text-capitalize">two</NavLink>
                 <div className="mega-menu">
                   <div className="row">
@@ -175,84 +251,7 @@ const DesktopNavbar = () => {
                     </div>
                   </div>
                 </div>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link text-capitalize">three</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link text-capitalize">four</NavLink>
-                <div className="mega-menu">
-                  <div className="row">
-                    <div className="col-md-8">
-                      <div className="mega-menu-items">
-                        <div className="row">
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-md-4">
-                            <div className="mega-menu-item text-center">
-                              <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="" className='img-fluid w-75 h-75' />
-                              <h6>Model S</h6>
-                              <div className="links d-flex justify-content-center gap-2">
-                                <Link>Learn</Link>
-                                <Link>Order</Link>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 border-start">
-                      <div className="mega-menu-links">
-                        <h5><Link>One</Link></h5>
-                        <h5><Link>Two</Link></h5>
-                        <h5><Link>Three</Link></h5>
-                        <h5><Link>Four</Link></h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link text-capitalize">five</NavLink>
-              </li>
+              </li> */}
             </ul>
             {/* NavSupportLanguageAuth */}
             <ul className="d-flex gap-3 navbar-nav nav_supportLanguageAuth">
