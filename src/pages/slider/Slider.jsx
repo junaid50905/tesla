@@ -34,20 +34,20 @@ const Slider = () => {
                                     </div>
                                 </>
                             }
-                            <div className="slide_lower_content">
+                            <div className="slide_lower_content text-center">
                                 <div>
-                                    <div className="buttons d-flex justify-content-center gap-4 mb-3">
+                                    <div className="buttons d-sm-flex justify-content-sm-center gap-4 mb-sm-3">
                                         {
                                             buttons.button_one && <>
-                                                <div className="button">
-                                                    <Link to={buttons.button_one.link} className="bottom-button btn btn-light fw-semibold">{buttons.button_one.title}</Link>
+                                                <div className="button my-3">
+                                                    <Link to={buttons.button_one.link} className="bottom-button btn btn-light fw-semibold py-2">{buttons.button_one.title}</Link>
                                                 </div>
                                             </>
                                         }
                                         {
                                             buttons.button_two && <>
-                                                <div className="button">
-                                                    <Link to={buttons.button_two.link} className="bottom-button btn btn-dark fw-semibold">{buttons.button_two.title}</Link>
+                                                <div className="button my-3">
+                                                    <Link to={buttons.button_two.link} className="bottom-button second-button btn btn-dark fw-semibold py-2">{buttons.button_two.title}</Link>
                                                 </div>
                                             </>
                                         }

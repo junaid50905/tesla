@@ -9,11 +9,11 @@
         .slide_upper_content {
             position: absolute;
             left: 50%;
-            top: 20%;
+            top: 18%;
             transform: translate(-50%);
             color: white;
             @media (max-width: 576px) {
-                top: 30%;
+                top: 25%;
             }
             .primary_link {
                 a {
@@ -24,12 +24,23 @@
         .slide_lower_content {
             position: absolute;
             left: 50%;
-            bottom: 10%;
+            bottom: 8%;
             transform: translate(-50%);
+            @media (max-width: 576px) {
+                bottom: 12%;
+            }
             .buttons {
                 .button {
                     .bottom-button {
                         width: calc(120px + 10vw);
+                        border: none;
+                    }
+                    .second-button {
+                        background: rgba( 16, 15, 15, 0.4);
+                        backdrop-filter: blur( 4px);
+                        -webkit-backdrop-filter: blur( 4px);
+                        border-radius: 10px;
+                        border: none;
                     }
                 }
             }
